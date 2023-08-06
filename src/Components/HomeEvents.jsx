@@ -71,30 +71,7 @@ export const HomeEvents = () => {
             <div className="mr-3 ml-3 "> 
             <Events/>
             </div>
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
         </div>
-        <div className="md:flex mt-4">
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
-            <div className="mr-3 ml-3"> 
-            <Events/>
-            </div>
-          </div>
         </div>
         {/* <div className="mt-4" style={{ zIndex: 1 }}>
           <h1>Welcome {user.displayName || user.email}</h1>
