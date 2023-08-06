@@ -10,7 +10,9 @@ import {
   sendPasswordResetEmail
 } from "firebase/auth";
 
+
 export const authContext = createContext(); // <-- fixed
+
 
 export const useAuth = () => {
   const context = useContext(authContext);
@@ -50,6 +52,8 @@ export const AuthProvider = ({ children }) => {
     });
     return () => unsubscribe();
   }, []);
+
+  
 
   return (
     <authContext.Provider value={{ signup, login, loginWithGoogle, logout, user, loading, resetPassword}}>
