@@ -8,6 +8,7 @@ import { ResetPassword } from "../components/ResetPassword";
 import { Camera } from "../scanner/Camera";
 import { CreateEvents } from "../components/CreateEvents";
 import { EventDetail } from "../components/EventDetail";
+
 import { About } from "../components/About";
 
 export const AppRouter = () => {

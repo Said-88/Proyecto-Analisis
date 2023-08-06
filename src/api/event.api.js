@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+
 export const getEventsRequest = async (event) => {
     return await axios.get('http://localhost:4000/evento', event,
     { headers: { 'Content-Type': 'application/json' } });

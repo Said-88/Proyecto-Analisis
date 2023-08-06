@@ -4,6 +4,7 @@ import { Navbar } from "./Navbar";
 import { Events } from "./Events";
 import { Footer } from "./Footer";
 
+
 export const HomeEvents = () => {
   const { user, loading } = useAuth();
   const [currentIndex, setCurrentIndex] = useState(0);
