@@ -1,6 +1,10 @@
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 
+import { Link } from 'react-router-dom';
+import logo from '../assets/Banner-Moodle-45-aniversario-USAP.png';
+
+
 export const EventDetail = () => {
 
   return (
@@ -11,7 +15,8 @@ export const EventDetail = () => {
     <div className="m-2">
       {/* Div de arriba con una imagen */}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '300px' }}>
-        <img src='' alt="Imagen" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+
+        <img src={logo} alt="Imagen" style={{ maxWidth: '100%', maxHeight: '100%' }} />
       </div>
 
       {/* Div de abajo con dos div internos */}
@@ -51,9 +56,13 @@ export const EventDetail = () => {
           <h2 className="mt-1 text-base md:text-base lg:text-lg xl:text-2xl my-3 font-medium">Aqui podras escanear:</h2>
           <hr />
           <div className="mt-4">
-            <a href="#" className="inline-block text-xs md:text-base lg:text-lg font-bold px-4 py-2 leading-none border rounded bg-blue-600 text-white border-white hover:border-transparent hover:bg-blue-800 mt-4 lg:mt-0">
+
+            <Link to="barcode" className="inline-block text-xs md:text-base lg:text-lg font-bold px-4 py-2 leading-none border rounded bg-blue-600 text-white border-white hover:border-transparent hover:bg-blue-800 mt-4 lg:mt-0">
+            <button>
                 Scan
-            </a>
+            </button>
+            </Link>
+ 
           </div>
         </div>
         <div className="w-full md:w-35p border-solid border-2 border-indigo-600 rounded-lg mr-3" style={{ flex: '35%', backgroundColor: '', padding: '20px' }}>

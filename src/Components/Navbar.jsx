@@ -50,13 +50,15 @@ export const Navbar = () => {
           <a href="#" className='text-xl hover:text-cyan-500 duration-500'></a>
         </li>
         <li className='m-4 my-6 md:my-0'>
-          <a href="#" className='text-xl hover:text-cyan-500 duration-500'>Temp</a>
+          <a href="#" className='text-xl hover:text-cyan-500 duration-500'></a>
         </li>
         <li className='m-4 my-6 md:my-0'>
-          <a href="#" className='text-xl hover:text-cyan-500 duration-500'>Temp</a>
+          <a href="#" className='text-xl hover:text-cyan-500 duration-500'></a>
         </li>
         <li className='m-4 my-6 md:my-0'>
-          <a href="#" className='text-xl hover:text-cyan-500 duration-500'>Temp</a>
+          <Link to="/about" className='text-xl hover:text-cyan-500 duration-500'>
+          About
+          </Link>
         </li>
         <Link to="/create/event">
         <button className='bg-blue-500 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-blue-600 rounded'>
